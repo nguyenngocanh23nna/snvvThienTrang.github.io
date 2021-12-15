@@ -1,0 +1,118 @@
+/* Định dạng toàn trang web */
+*{
+    font-family: sans-serif;
+}
+
+/* Head */
+.header_fluid{
+    width: 100%;
+    background: #262626;
+}
+.header_fluid .header{
+    height: 110px;
+    background: #262626;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header_fluid .header .element{}
+.header_fluid .header .header1{
+    height: 50px;
+}
+.header_fluid .header .header1 img{
+    margin-top: 5px;
+    width: 120px;
+    height: 50px;
+}
+.header_fluid .header .header1 .logo{
+    float: left;
+}
+.header_fluid .header .header1 .menu{
+    float: right;
+}
+.header_fluid .header .header1 .menu ul{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.header_fluid .header .header1 .menu li{
+    float: left;
+}
+.header_fluid .header .header1 .menu li a{
+    color: aliceblue;
+    padding-top: 15px 0px;
+    margin-left: 15px;
+}
+.header_fluid .header .header1 .menu a:hover{
+    color: rgb(194, 142, 151);
+}
+.header_fluid .header .header2{
+    margin-top: 5px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+}
+.header_fluid .header .header2 ul{
+
+}
+.header_fluid .header .header2 li{
+    display: inline;
+}
+.header_fluid .header .header2 a{
+    margin-right: 20px;
+    color: aliceblue;
+}
+.header_fluid .header .header2 a:hover{
+    color: rgb(194, 142, 151);
+}
+
+/* Content */
+.content_fluid{
+    width: 100%;
+    background: beige;
+}
+.content_fluid .content{
+    width: 1200px;
+    background: beige;
+    height: 640px;
+    margin: 0 auto;
+}
+.content_fluid .content .element{
+    padding: 15px;
+}
+.content_fluid .content .element p{
+    color: #262626;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.content_fluid .content .title{}
+.content_fluid .content .tab{}
+.content_fluid .content .main_content{}
+.content_fluid .content .featured{}
+
+/* Footer */
+.footer_fluid{
+    background: grey;
+    width: 100%;
+}
+.footer_fluid .footer{
+    height: 85px;
+    background: grey;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_fluid .footer .footer1{
+    color: #fff;
+    font-size: medium;
+    padding: 5px;
+    margin-left: 10px;
+}
+.footer_fluid .footer .footer2{
+    color: #fff;
+    font-size: medium;
+    margin-top: 3px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.footer_fluid .footer .footer2 a{
+    color: rgb(93, 247, 195);
+}
